@@ -2,5 +2,9 @@
 <manifest>
   <remote name="origin" fetch="https://github.com/choiseokheum" revision="main" />
   <default remote="origin" revision="main" sync-j="4" />
-  <project path="project1" name="test_repo_csh.git" />
+  <project path="csh_work_project" name="test_repo_csh.git" />
+  
+  <remote name="origin" fetch="https://github.com/devplaygroundlkw" revision="main" />  
+  <default remote="origin" revision="main" sync-j="4" />
+  <project path="lkw_work_project" name="test_repo_lkw.git" />
 </manifest>
