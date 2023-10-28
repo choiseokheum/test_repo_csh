@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="https://github.com/choiseokheum" revision="main" />
+  <remote name="csh-origin" fetch="https://github.com/choiseokheum" revision="main" />
+  <remote name="lkw-origin" fetch="https://github.com/devplaygroundlkw" revision="master" />  
   <default remote="origin" revision="main" sync-j="4" />
-  <project path="csh_work_project" name="test_repo_csh.git" />
+  <project path="csh_work_project" name="test_repo_csh.git" remote="csh-origin" revision="main" />
   
-  <remote name="origin" fetch="https://github.com/devplaygroundlkw" revision="main" />  
-  <default remote="origin" revision="main" sync-j="4" />
-  <project path="lkw_work_project" name="test_repo_lkw.git" />
+  <project path="lkw_work_project" name="test_repo_lkw.git" remote="lkw-origin" revision="master" />
 </manifest>
