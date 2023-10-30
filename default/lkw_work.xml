@@ -3,6 +3,6 @@
 <manifest>
         <remote name="lkw_private" fetch="https://github.com/devplaygroundlkw" />
 
-        <project groups="lkw_work" name="test_repo_lkw" path="srcs/client_lkw" remote="lkw_private" />
+        <project groups="lkw_work" name="test_repo_lkw.git" path="srcs/client_lkw" remote="lkw_private" />
 </manifest>
 
