@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
-  <remote name="csh-origin" fetch="https://github.com/devplaygroundcsh" revision="main" />
-  <remote name="lkw-origin" fetch="https://github.com/devplaygroundlkw" revision="main" />  
-  <default remote="csh-origin" revision="main" sync-j="4" />
-  <project path="csh_work_project" name="test_repo_csh.git" remote="csh-origin" revision="main" />
-  
-  <project path="lkw_work_project" name="test_repo_lkw.git" remote="lkw-origin" revision="main" />
+
+	<remote name="csh-origin" fetch="https://github.com/devplaygroundcsh" revision="main" />
+	<default remote="csh-origin" revision="master" sync-j="4" sync-c="true" sync-s="true"/>
+	<project path="csh_work_project" name="test_repo_csh.git" remote="csh-origin" revision="main" />
+
+	<include name="default/lkw_work.xml" />  
+
 </manifest>
