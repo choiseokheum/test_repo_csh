@@ -2,9 +2,9 @@
 
 <manifest>
 
-	<remote name="csh-origin" fetch="https://github.com/devplaygroundcsh" revision="master" />
-	<default remote="csh-origin" revision="master" sync-j="4" sync-c="true" sync-s="true"/>
-	<project path="csh_work_project" name="test_repo_csh.git" remote="csh-origin" revision="master" />
+	<remote name="csh-origin" fetch="https://github.com/devplaygroundcsh" revision="main" />
+	<default remote="csh-origin" revision="main" sync-j="4" sync-c="true" sync-s="true"/>
+	<project path="csh_work_project" name="test_repo_csh.git" remote="csh-origin" revision="main" />
 
 	<include name="default/lkw_work.xml" />  
 
